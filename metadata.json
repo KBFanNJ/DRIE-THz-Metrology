@@ -1,0 +1,87 @@
+{
+  "designs": {
+    "MS1": {
+      "archive_design": "MS4",
+      "simulation_dataset": "MS4_HR_Re",
+      "input_columns": 215,
+      "simulation_rows": 861,
+      "measured_rows": 8,
+      "frequency_step_THz": 0.0061099
+    },
+    "MS2": {
+      "archive_design": "MS6",
+      "simulation_dataset": "MS6_HR_Re",
+      "input_columns": 215,
+      "simulation_rows": 693,
+      "measured_rows": 9,
+      "frequency_step_THz": 0.0061099
+    },
+    "MS3": {
+      "archive_design": "MS7",
+      "simulation_dataset": "MS7_HR_Re",
+      "input_columns": 215,
+      "simulation_rows": 693,
+      "measured_rows": 9,
+      "frequency_step_THz": 0.0061099
+    },
+    "DMS2": {
+      "archive_design": "NMS4",
+      "simulation_dataset": "NMS4_v2",
+      "input_columns": 198,
+      "simulation_rows": 231,
+      "measured_rows": 12,
+      "frequency_step_THz": 0.003054
+    }
+  },
+  "checkpoints": {
+    "MS1": {
+      "MLP": "archived model for this design",
+      "CNN": "retraining example for this design, seed 42000",
+      "Transformer": "archived original article checkpoint"
+    },
+    "MS2": {
+      "MLP": "archived model for this design; MS2 checkpoint used in final hidden-feature analysis",
+      "CNN": "archived model for the MS2 noise and feature analyses",
+      "Transformer": "archived original article checkpoint"
+    },
+    "MS3": {
+      "MLP": "archived model for this design",
+      "CNN": "retraining example for this design, seed 42000",
+      "Transformer": "archived original article checkpoint"
+    },
+    "DMS2": {
+      "MLP": "archived model for this design",
+      "CNN": "retraining example for this design, seed 42000",
+      "Transformer": "archived DMS2 checkpoint"
+    }
+  },
+  "training_profiles": {
+    "MLP": {
+      "epochs": 5000,
+      "lr": 0.01,
+      "batch": 1024,
+      "microbatch": 1024,
+      "weight_decay": 2e-05,
+      "loss_scale": 1000,
+      "checkpoint_selection": "lowest simulation-validation loss"
+    },
+    "CNN": {
+      "epochs": 200,
+      "lr": 0.0005,
+      "batch": 1024,
+      "microbatch": 16,
+      "weight_decay": 2e-05,
+      "loss_scale": 1000,
+      "checkpoint_selection": "lowest simulation-validation loss"
+    },
+    "Transformer": {
+      "epochs": 200,
+      "lr": 0.0001,
+      "batch": 32,
+      "microbatch": 8,
+      "weight_decay": 0.0,
+      "loss_scale": 1,
+      "checkpoint_selection": "final epoch"
+    }
+  }
+}
