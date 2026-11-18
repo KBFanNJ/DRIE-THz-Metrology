@@ -1,0 +1,3 @@
+method,lateral_MAE_um,depth_MAE_um,joint_pass
+Spectral fitting with bilinear interpolation,0.077,0.212,137/156 (87.8%)
+Transformer,0.114,0.151,150/156 (96.2%)

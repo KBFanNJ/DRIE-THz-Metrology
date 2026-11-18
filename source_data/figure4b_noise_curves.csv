@@ -1,0 +1,31 @@
+model,sigma,S_MAE_um,H_MAE_um,source
+MLP,0.02,0.41698820220099403,1.5531099404229043,article archived curve
+CNN,0.02,0.2579743466553863,1.0981345017751036,single saved weight;archived noise
+Transformer,0.02,0.2680426043051259,0.9664186414082823,original weight reconstructed curve
+MLP,0.03,0.5024848927391885,1.6359308687845855,article archived curve
+CNN,0.03,0.31932691786024253,1.1864146762424024,single saved weight;archived noise
+Transformer,0.03,0.35934044272811305,1.0398734850353641,original weight reconstructed curve
+MLP,0.04,0.6239760600195976,1.7040323914421913,article archived curve
+CNN,0.04,0.43899513703805343,1.3280645847320534,single saved weight;archived noise
+Transformer,0.04,0.4455602038348161,1.0774642139010937,original weight reconstructed curve
+MLP,0.05,0.761188468933104,1.7829005156622975,article archived curve
+CNN,0.05,0.5767720950091315,1.6103037929534894,single saved weight;archived noise
+Transformer,0.05,0.5260229244938601,1.1042782243092832,original weight reconstructed curve
+MLP,0.06,0.861027573479545,1.8154626655578596,article archived curve
+CNN,0.06,0.707035476543284,1.8767050308651376,single saved weight;archived noise
+Transformer,0.06,0.6010196608084217,1.157090557416279,original weight reconstructed curve
+MLP,0.07,0.9406280136108384,1.8307500118679454,article archived curve
+CNN,0.07,0.8154243508091668,2.05944416284561,single saved weight;archived noise
+Transformer,0.07,0.6697483196964968,1.2394957007302168,original weight reconstructed curve
+MLP,0.08,1.0345508140987805,1.8773166275024395,article archived curve
+CNN,0.08,0.8940539504863586,2.225954191154903,single saved weight;archived noise
+Transformer,0.08,0.7328131134421736,1.323675406773884,original weight reconstructed curve
+MLP,0.09,1.1217008315192314,1.923264851040309,article archived curve
+CNN,0.09,0.9250497697900831,2.4819478517108484,single saved weight;archived noise
+Transformer,0.09,0.7902196117683692,1.3954943015840309,original weight reconstructed curve
+MLP,0.1,1.1983468416002045,2.0440974002414265,article archived curve
+CNN,0.1,0.9182145740367736,2.7378898652394605,single saved weight;archived noise
+Transformer,0.1,0.854844278229608,1.4535060453414905,original weight reconstructed curve
+MLP,0.11,1.2581628841823986,2.1645664935641804,article archived curve
+CNN,0.11,0.8887935359389681,2.9669467732641426,single saved weight;archived noise
+Transformer,0.11,0.9243087829483885,1.5074783823225222,original weight reconstructed curve

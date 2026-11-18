@@ -1,0 +1,4 @@
+model,n_measured_MS2,n_simulated_MS2,k,n_pairs,mean_absolute_neighbour_lateral_difference_um,mean_absolute_neighbour_depth_difference_um
+MLP,9,693,5,45,0.571851852,1.662444444
+CNN,9,693,5,45,0.292740741,1.552222222
+Transformer,9,693,5,45,0.221037037,1.197555556

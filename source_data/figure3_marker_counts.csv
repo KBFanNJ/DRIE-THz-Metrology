@@ -1,0 +1,17 @@
+panel,design,method,inside,distinct_centers,percent,source_note
+Fig. 3c,MS1,Numerical fitting,2,8,25.0,Original vector marker centres and dashed box. The archived boundary point at H = -1.0 um is included.
+Fig. 3c,MS1,MLP,3,8,37.5,Original vector marker centres and dashed box
+Fig. 3c,MS1,CNN,2,8,25.0,Original vector marker centres and dashed box
+Fig. 3c,MS1,Transformer,6,8,75.0,Original vector marker centres and dashed box
+Fig. 3d,MS2,Numerical fitting,0,9,0.0,Original vector marker centres and dashed box
+Fig. 3d,MS2,MLP,3,10,30.0,Original vector marker centres and dashed box
+Fig. 3d,MS2,CNN,3,10,30.0,Original vector marker centres and dashed box
+Fig. 3d,MS2,Transformer,5,10,50.0,Original vector marker centres and dashed box
+Fig. 3e,MS3,Numerical fitting,3,9,33.333333333333336,Original vector marker centres and dashed box
+Fig. 3e,MS3,MLP,4,9,44.44444444444444,Original vector marker centres and dashed box
+Fig. 3e,MS3,CNN,8,9,88.88888888888889,Original vector marker centres and dashed box
+Fig. 3e,MS3,Transformer,7,9,77.77777777777777,Original vector marker centres and dashed box
+Fig. 3f,DMS2,Numerical fitting,9,12,75.0,Original vector marker centres and dashed box
+Fig. 3f,DMS2,MLP,11,12,91.66666666666667,Original vector marker centres and dashed box
+Fig. 3f,DMS2,CNN,11,12,91.66666666666667,Original vector marker centres and dashed box
+Fig. 3f,DMS2,Transformer,11,12,91.66666666666667,Original vector marker centres and dashed box

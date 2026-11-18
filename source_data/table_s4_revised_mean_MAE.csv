@@ -1,0 +1,3 @@
+parameter,numerical_fitting_um,MLP_um,CNN_um,Transformer_um
+S,0.449,0.620,0.300,0.319
+H,1.345,1.652,1.032,0.872
